@@ -1,0 +1,14 @@
+# To activate this repo in your anthos cluster
+#export CLUSTER_NAME=[enter cluster name]
+#export PROJECT_ID=[enter GCP project ID]
+#gcloud beta container hub config-management apply --membership=$CLUSTER_NAME --config=./apply-spec.yaml --project=$PROJECT_ID
+applySpecVersion: 1
+spec:
+  configSync:
+    # Set to true to install and enable Config Sync
+    enabled: true
+    sourceFormat: hierarchy
+    syncRepo: 'https://github.com/bkauf/anthos-demo/'
+    syncBranch: 'main'
+    secretType: none
+    policyDir: acm/
