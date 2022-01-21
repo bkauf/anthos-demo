@@ -5,7 +5,7 @@ This is the root directory for Anthos Configuration Management.
 See [our documentation](https://cloud.google.com/anthos-config-management/docs/repo) for how to use each subdirectory.
 # Anthos Demo
 
-This repo containers the [GCP microservices demo](https://github.com/GoogleCloudPlatform/microservices-demo). You can apply it to your anthos configuration by running the following commands to enable Anthos Configuration Management. This will syncronise this repo with your cluster(s)
+This repo contains the [GCP microservices demo](https://github.com/GoogleCloudPlatform/microservices-demo). You can apply it to your anthos configuration by running the following commands to enable Anthos Configuration Management. This will syncronise this repo with your cluster(s)
 
 # To activate this repo in your anthos cluster
 ```
